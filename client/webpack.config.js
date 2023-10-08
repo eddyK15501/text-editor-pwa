@@ -17,6 +17,9 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+    devServer: {
+      open: true
+    },
     plugins: [
       new HtmlWebpackPlugin({
         title: 'J.A.T.E.',
