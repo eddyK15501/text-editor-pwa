@@ -36,13 +36,14 @@ module.exports = () => {
         publicPath: '/',
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E.',
+        description: 'Takes notes with JavaScript syntax highlighting!',
         start_url: '/',
-        display: 'browser',
-        description: 'My awesome Progressive Web App!',
+        display: 'standalone',
         inject: true,
         fingerprints: false,
-        background_color: 'dodgerblue',
-        theme_color: '#000',
+        orientation: 'portrait',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         crossorigin: 'use-credentials',
         icons: [
           {
