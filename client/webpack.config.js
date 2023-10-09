@@ -37,7 +37,7 @@ module.exports = () => {
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E.',
         start_url: '/',
-        // display: 'browser',
+        display: 'browser',
         description: 'My awesome Progressive Web App!',
         inject: true,
         fingerprints: false,
