@@ -18,14 +18,14 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
-      hot: 'only',
+      hot: true,
       open: true,
+      port: 8081,
     },
     plugins: [
       new HtmlWebpackPlugin({
         title: 'J.A.T.E.',
         template: './index.html',
-        publicPath: '/',
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
