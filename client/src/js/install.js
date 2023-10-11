@@ -7,7 +7,6 @@ let deferredPrompt;
 window.addEventListener('beforeinstallprompt', async (event) => {
     deferredPrompt = event;
     butInstall.style.display = 'block';
-    console.log('BEFOREINSTALLPROMPT WORKING')
 });
 
 // TODO: Implement a click event handler on the `butInstall` element
@@ -25,6 +24,6 @@ butInstall.addEventListener('click', async () => {
 });
 
 // TODO: Add an handler for the `appinstalled` event
-window.addEventListener('appinstalled', (event) => {
+window.addEventListener('appinstalled', () => {
     console.log('PWA installed successfully');
 });
