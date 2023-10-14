@@ -32,4 +32,4 @@ A single-page text editor PWA (Progressive Web Application) running in the brows
 * Written by Edward Kim.
 
 ## License
-This application is licensed under the [MIT License](./LICENSE).
+* This application is licensed under the [MIT License](./LICENSE).
