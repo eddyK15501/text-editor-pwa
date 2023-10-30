@@ -6,6 +6,8 @@ A single-page text editor PWA (Progressive Web Application) running in the brows
 #### CodeMirror text editor theme change, from 'monakai' to 'default'
  
 ## Link to the Deployed Application
+#### Update: The Heroku application has been deactivated due to accumulating dyno fees, that exceed the limits provided by the Github Student Developer Pack.
+
 * [Click Here](https://eddyk15501-text-editor-pwa-5351c1a7bdca.herokuapp.com/)
 
 ## Usage
